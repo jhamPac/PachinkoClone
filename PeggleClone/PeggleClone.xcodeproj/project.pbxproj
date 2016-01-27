@@ -42,6 +42,7 @@
 		DA41F9741C57FF91007D3042 /* slotGlowGood.png in Resources */ = {isa = PBXBuildFile; fileRef = DA41F9581C57FF91007D3042 /* slotGlowGood.png */; };
 		DA41F9751C57FF91007D3042 /* slotGlowGood@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA41F9591C57FF91007D3042 /* slotGlowGood@2x.png */; };
 		DA41F9761C57FF91007D3042 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = DA41F95A1C57FF91007D3042 /* spark.png */; };
+		DA41F9781C584809007D3042 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA41F9771C584809007D3042 /* Helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +83,7 @@
 		DA41F9581C57FF91007D3042 /* slotGlowGood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slotGlowGood.png; sourceTree = "<group>"; };
 		DA41F9591C57FF91007D3042 /* slotGlowGood@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slotGlowGood@2x.png"; sourceTree = "<group>"; };
 		DA41F95A1C57FF91007D3042 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		DA41F9771C584809007D3042 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				DA41F92A1C57FD84007D3042 /* GameScene.sks */,
 				DA41F92C1C57FD84007D3042 /* GameScene.swift */,
 				DA41F92E1C57FD84007D3042 /* GameViewController.swift */,
+				DA41F9771C584809007D3042 /* Helper.swift */,
 				DA41F9301C57FD84007D3042 /* Main.storyboard */,
 				DA41F9331C57FD84007D3042 /* Assets.xcassets */,
 				DA41F9351C57FD84007D3042 /* LaunchScreen.storyboard */,
@@ -266,6 +269,7 @@
 				DA41F92D1C57FD84007D3042 /* GameScene.swift in Sources */,
 				DA41F92F1C57FD84007D3042 /* GameViewController.swift in Sources */,
 				DA41F9291C57FD84007D3042 /* AppDelegate.swift in Sources */,
+				DA41F9781C584809007D3042 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
