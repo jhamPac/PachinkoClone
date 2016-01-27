@@ -43,6 +43,7 @@
 		DA41F9751C57FF91007D3042 /* slotGlowGood@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA41F9591C57FF91007D3042 /* slotGlowGood@2x.png */; };
 		DA41F9761C57FF91007D3042 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = DA41F95A1C57FF91007D3042 /* spark.png */; };
 		DA41F9781C584809007D3042 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA41F9771C584809007D3042 /* Helper.swift */; };
+		DA41F97C1C5944B3007D3042 /* background2.png in Resources */ = {isa = PBXBuildFile; fileRef = DA41F97B1C5944B3007D3042 /* background2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +85,7 @@
 		DA41F9591C57FF91007D3042 /* slotGlowGood@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slotGlowGood@2x.png"; sourceTree = "<group>"; };
 		DA41F95A1C57FF91007D3042 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 		DA41F9771C584809007D3042 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		DA41F97B1C5944B3007D3042 /* background2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				DA41F93F1C57FF91007D3042 /* background.jpg */,
+				DA41F97B1C5944B3007D3042 /* background2.png */,
 				DA41F9401C57FF91007D3042 /* background@2x.jpg */,
 				DA41F9411C57FF91007D3042 /* ballBlue.png */,
 				DA41F9421C57FF91007D3042 /* ballBlue@2x.png */,
@@ -241,6 +244,7 @@
 				DA41F9671C57FF91007D3042 /* ballRed.png in Resources */,
 				DA41F96D1C57FF91007D3042 /* FireParticles.sks in Resources */,
 				DA41F9681C57FF91007D3042 /* ballRed@2x.png in Resources */,
+				DA41F97C1C5944B3007D3042 /* background2.png in Resources */,
 				DA41F9371C57FD84007D3042 /* LaunchScreen.storyboard in Resources */,
 				DA41F9721C57FF91007D3042 /* slotGlowBad.png in Resources */,
 				DA41F9341C57FD84007D3042 /* Assets.xcassets in Resources */,
@@ -421,6 +425,7 @@
 				DA41F93D1C57FD84007D3042 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -35,7 +35,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate
     
     override func didMoveToView(view: SKView)
     {
-        let background = SKSpriteNode(imageNamed: "background.jpg")
+        let background = SKSpriteNode(imageNamed: "background2.png")
         background.position = CGPoint(x: 512, y: 384)
         background.blendMode = .Replace
         background.zPosition = -1
