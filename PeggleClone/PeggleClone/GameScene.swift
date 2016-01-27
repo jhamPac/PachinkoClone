@@ -81,7 +81,14 @@ class GameScene: SKScene, SKPhysicsContactDelegate
             {
                 if editingMode
                 {
-                    
+                    //select a random width between 16 - 128; height is set to 16
+                    let size = CGSize(width: GKRandomDistribution(lowestValue: 16, highestValue: 128).nextInt(), height: 16)
+                    let box = SKSpriteNode(color: RandomColor(), size: size)
+                    box.zRotation = RandomCGFloat(min: 0, max: 3)
+                    box.position = location
+                    box.physicsBody = SKPhysicsBody(rectangleOfSize: box.size)
+                    box.physicsBody!.dynamic = false
+                    addChild(box)
                 }
                 else
                 {
@@ -95,10 +102,6 @@ class GameScene: SKScene, SKPhysicsContactDelegate
                 }
             }
         }
-    }
-   
-    override func update(currentTime: CFTimeInterval) {
-        /* Called before each frame is rendered */
     }
     
     func makeBouncerAt(pos: CGPoint)
@@ -158,6 +161,12 @@ class GameScene: SKScene, SKPhysicsContactDelegate
     
     func destroyBall(ball: SKNode)
     {
+        if let fireparticle = SKEmitterNode(fileNamed: "FireParticles")
+        {
+            fireparticle.position = ball.position
+            addChild(fireparticle)
+        }
+        
         ball.removeFromParent()
     }
     
